@@ -7,4 +7,15 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.header{
+    background-color: #fff;
+    background-image: url(../images/background_header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav__logo{
+    position:relative;
+}
+.header__image{
+    position:absolute
+}

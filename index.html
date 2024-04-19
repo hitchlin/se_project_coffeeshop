@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Lincoln Hitchcock">
     <meta name="description" content="Coffee Shop Website">
-    <meta name="keywords" content="Coffee shop landing page">
+    <meta name="keywords" content="coffee shop landing page">
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,17 +20,56 @@
 </head>
 <body>
 <div class="page">
-    Testing...
     <header class="header">
-
-    </header>
+        <nav class="nav">
+          <img
+            src="images/logo_coffeeshop_dark.svg"
+            alt="Triple Espresso Logo"
+            class="nav__logo"
+          />
+          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link nav__link_recipes" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link nav__link_book" href="#book">Book a Table</a>
+            </li>
+            <li>
+              <a class="nav__link nav__link_menu" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link nav__link_contacts" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">in the Triple Peaks Library
+        <span class="header__span-accent">Specialty coffee</span></h1>
+        <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="/images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <p class="header__footer__paragraph">
+            Hours: 
+            Monday – Friday (10:00 – 19:00)
+            Saturday – Sunday (11:00 – 18:00)</a>
+          <p class="header__footer__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
     <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section id="recipes" class="recipes"></section>
+        <section id="book" class="book"></section>
+        <section id="menu" class="menu"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <section id= "contacts" class="contacts"></section>
+    </footer>
 </div>
 </body>
 </html>
