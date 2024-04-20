@@ -36,26 +36,52 @@
     margin: 30px 80px auto auto;
     color: #000;
 }
+.nav__link{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
 .header__title{
     margin: 183px auto 0px 80px;
     max-width: 729px;
     position: relative;
     z-index: 2;
+       
 }
 .header__title__span-accent{
     font-family: "Noto Serif", Times New Roman, Serif;
     font-style: italic;    
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
 }
 .header__title__main{
     position: relative;
     z-index: 2;
-    
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    margin:0;
+    letter-spacing: -0.6px;  
 }
 .header__description{
     position: relative;
     z-index: 2;
     max-width: 683px;
     margin: 28px auto auto 80px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
 .header__image{
     position:absolute;
@@ -68,16 +94,28 @@
 .header__footer{
     display: flex;
     margin: auto 80px 40px;
-
+    justify-content: space-between;
+    position:relative;
 }
 .header__footer__list{
 list-style: none;
-}
-
-.header__footer__list_hours{
+padding: 0px;
 
 }
 .header__footer__list_item{
-
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #838383;
+}
+.header__footer__address{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #838383;
 }
 
