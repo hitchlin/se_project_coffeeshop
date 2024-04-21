@@ -128,7 +128,7 @@ padding: 0px;
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
-    display: flex;
+    
 }
 .recipes__title{
     font-family: "Inter";
@@ -136,6 +136,11 @@ padding: 0px;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
+    margin: 100px auto 0px 80px;
+    max-width: 580px;
+    display: flex;
+    flex-direction: row;
+
 }
 .recipes__subtitle{
     font-family: "Noto Serif";
@@ -143,16 +148,29 @@ padding: 0px;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    margin: 24px auto 80px 80px;
+    max-width: 438px;
+
 
 }
 .recipes__videos{
+    width: 273px;
+    height: 480px;
+    display: flex;
+    align-self: center;
+    padding-bottom: 215px;
 
 }
 .recipes__video{
-
+    display: flex;
+    padding: 0 0 0 24px;
+}
+.recipes__videos_aeropress{
+    padding-left: 40px;
 }
 .recipe__video-caption{
-
+display: flex;
+justify-content: space-between;
 }
 .recipe__video-caption_item{
     font-family: "Inter";
