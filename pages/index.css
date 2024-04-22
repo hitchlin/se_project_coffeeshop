@@ -45,23 +45,23 @@
   line-height: 20px;
   text-decoration: none;
 }
-.header__title {
+.header-title {
   margin: 183px auto 0px 80px;
   max-width: 729px;
   position: relative;
   z-index: 2;
 }
-.header__title__span-accent {
+.header-title__span-accent {
   font-family: "Noto Serif", Times New Roman, Serif;
   font-style: italic;
   font-family: "Noto Serif";
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
 }
-.header__title__main {
+.header-title__main {
   position: relative;
   z-index: 2;
   font-family: "Inter";
@@ -91,18 +91,18 @@
   right: 5px;
   top: 124px;
 }
-.header__footer {
+.header-footer {
   display: flex;
   margin: auto 80px 40px;
   align-items: flex-end;
   justify-content: space-between;
   position: relative;
 }
-.header__footer__list {
+.header-footer__list {
   list-style: none;
   padding: 0px;
 }
-.header__footer__list_item {
+.header-footer__list_item {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -110,7 +110,7 @@
   line-height: 20px;
   color: #838383;
 }
-.header__footer__address {
+.header-footer__address {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
