@@ -155,29 +155,22 @@
   margin-top: 24px;
   margin-bottom: 80px;
 }
-.recipes__video_flex-container {
+.recipes__videos {
   display: flex;
   justify-self: center;
   align-self: center;
-}
-.recipes__videos {
-  display: flex;
   margin: 0 auto 215px;
 }
 .recipes__videos_list {
   list-style-type: none;
   padding: 0px 40px 0px 0px;
 }
-.recipes__videos_list-2 {
-  list-style-type: none;
-  padding: 0px;
-}
 .recipes__video {
   display: flex;
   height: 273px;
   width: 480px;
 }
-.recipes__videos_aeropress {
+.recipes__videos-aeropress {
   padding-left: 40px;
 }
 .recipes__video-caption {
