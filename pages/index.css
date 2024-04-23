@@ -45,7 +45,7 @@
   line-height: 20px;
   text-decoration: none;
 }
-.header__title {
+.header__title-main {
   margin: 183px auto 0px 80px;
   max-width: 729px;
   position: relative;
@@ -59,7 +59,7 @@
   line-height: 72px;
   color: #2f80ed;
 }
-.header__title-main {
+.header__title {
   position: relative;
   z-index: 2;
   font-family: "Inter";
