@@ -51,7 +51,7 @@
   position: relative;
   z-index: 2;
 }
-.header__title__span-accent {
+.header__title-span-accent {
   font-family: "Noto Serif", Times New Roman, Serif;
   font-style: italic;
   font-family: "Noto Serif";
@@ -61,7 +61,7 @@
   line-height: 72px;
   color: #2f80ed;
 }
-.header-title__main {
+.header-title-main {
   position: relative;
   z-index: 2;
   font-family: "Inter";
