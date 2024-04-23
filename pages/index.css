@@ -166,16 +166,9 @@
   padding: 0px 40px 0px 0px;
   border: none;
 }
-.recipes__iframe_2 {
-  list-style-type: none;
-  padding: 0px;
-}
 
-.recipes__video-caption {
+.recipes__video-captions {
   padding: 0px 40px 0px 0px;
-}
-
-.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
