@@ -149,42 +149,32 @@
   margin-top: 24px;
   margin-bottom: 80px;
 }
-.recipes__video_flex-container {
+.recipes__videos {
   display: flex;
   justify-self: center;
   align-self: center;
 }
-.recipes__videos {
+.recipes__video {
   display: flex;
   margin: 0 auto 215px;
+  flex-direction: column;
 }
-.recipes__videos_list {
+.recipes__iframe {
   list-style-type: none;
+  height: 273px;
+  width: 480px;
   padding: 0px 40px 0px 0px;
+  border: none;
 }
-.recipes__videos_list-2 {
+.recipes__iframe_2 {
   list-style-type: none;
   padding: 0px;
 }
-.recipes__video {
-  display: flex;
-  height: 273px;
-  width: 480px;
-}
-.recipes__videos_aeropress {
-  padding-left: 40px;
-}
+
 .recipes__video-caption {
   padding: 0px 40px 0px 0px;
 }
-.recipes-video {
-  display: flex;
-  height: 273px;
-  width: 480px;
-}
-.recipes-videos-aeropress {
-  padding-left: 40px;
-}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
