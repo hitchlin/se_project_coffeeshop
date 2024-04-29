@@ -176,3 +176,106 @@
   line-height: 30px;
   color: #fff;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  align-self: center;
+}
+
+.reservation__form {
+  margin-bottom: 120px;
+}
+
+.form {
+  max-width: 385px;
+  display: flex;
+  border-radius: 2px;
+  flex-direction: column;
+  align-self: center;
+}
+
+.form__fieldset {
+  max-width: 385px;
+  display: flex;
+  align-self: center;
+  flex-flow: column;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.form__input {
+  height: 60px;
+  margin-top: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__name {
+}
+.form__guest {
+}
+
+.form__date {
+}
+.form__email {
+}
+.form__button {
+  height: 60px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #fff;
+}
+.form__label_checkbox {
+  padding-bottom: 120px;
+}
+.form__checkbox {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 32px;
+  padding-bottom: 120px;
+}

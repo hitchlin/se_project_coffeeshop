@@ -31,7 +31,9 @@
               <a class="nav__link nav__link_recipes" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link nav__link_book" href="#book">Book a Table</a>
+              <a class="nav__link nav__link_book" href="#reservation"
+                >Book a Table</a
+              >
             </li>
             <li>
               <a class="nav__link nav__link_menu" href="#menu">Menu</a>
@@ -109,7 +111,31 @@
             </div>
           </div>
         </section>
-        <section class="book" id="book"></section>
+        <section class="reservation" id="reservation">
+        <h2 class="reservation__title">Book a table</h2>
+        <div class="resevation__form form">
+          <fieldset class="form__fieldset">
+      
+            <label for="name" class="form__label">Name *
+              <input type="text" class="form__name form__input" name="name" placeholder="Name Surname">
+            </label>
+            <label for="guest" class="form__label">Number of guests *
+              <input type="number" class="form__guest form__input" name="guest" placeholder="1-8">
+            </label>
+            <label for="date" class="form__label">Date & time *
+              <input type="datetime-local" class="form__date form__input" name="date" >
+            </label>
+            <label for="email" class="form__label">Your email *
+              <input type="email" class="form__email form__input" name="email" placeholder="email@email.com">
+            </label>
+          </fieldset>
+          <button class="form__button">Book a table</button>
+<label for="checkbox" class="form__label form__label_checkbox"><input type="checkbox" class="form__checkbox">I agree with the terms of use</input> </label>
+        </div>
+        
+
+        </section>
+
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
