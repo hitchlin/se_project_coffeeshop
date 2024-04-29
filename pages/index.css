@@ -183,7 +183,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
   min-height: 720px;
   max-height: 800px;
   display: flex;
