@@ -204,7 +204,6 @@
 }
 
 .reservation__form {
-  margin-bottom: 120px;
 }
 
 .form {
@@ -235,6 +234,7 @@
   flex-direction: column;
   margin: 0;
   padding-bottom: 32px;
+  gap: 12px;
 }
 
 .form__input {
