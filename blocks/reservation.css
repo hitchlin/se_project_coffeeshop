@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
@@ -69,13 +70,14 @@
 
 .form__input {
   height: 60px;
-  margin-top: 8px;
-  font-family: Inter;
+  font-family: "Inter" s;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  padding: 0;
+  margin: 0;
 }
 
 .form__name {
@@ -97,16 +99,21 @@
   line-height: 20px;
   background-color: #2f80ed;
   color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.form__button:hover {
+  opacity: 70%;
+  transition: 0.3s;
 }
 .form__label_checkbox {
+  margin: 0;
   padding-top: 32px;
-  padding-bottom: 120px;
   align-self: center;
 }
 .form__checkbox {
   border-radius: 2px;
   align-self: center;
   padding-top: 32px;
-  padding-bottom: 120px;
   margin-right: 12px;
 }

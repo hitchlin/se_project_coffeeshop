@@ -200,7 +200,9 @@
                 </li>
                 <li class="card__list-item">
                   Iced Coffee (16 oz)
-                  <span class="card__list-divider"> .</span>
+                  <span class="card__list-divider card__list-item_no-padding">
+                    .</span
+                  >
                   $1.75
                 </li>
               </div>
@@ -223,7 +225,7 @@
                   <span class="card__list-divider"> .</span>
                   $3
                 </li>
-                <li class="card__list-item">
+                <li class="card__list-item card__list-item_no-padding">
                   Sunrise in the Bay Area (decaf)
                   <span class="card__list-divider"> .</span>
                   $10
@@ -259,7 +261,7 @@
                 <span class="card__list-divider"> .</span>
                 $2
               </li>
-              <li class="card__list-item">
+              <li class="card__list-item card__list-item_no-padding">
                 Fresh Bug'uette
                 <span class="card__list-divider"> .</span>
                 $0.25
@@ -267,10 +269,53 @@
             </div>
           </div>
         </section>
-        <section class="about" id="about"></section>
+        <section class="about" id="about">
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          <h3 class="about__title">About the coffee shop</h3>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph about__paragraph_no-padding">
+              Besides that, we try to reduce our environmental impact-- so we
+              dont sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+        </section>
       </main>
       <footer class="footer">
-        <section id="contacts" class="contacts"></section>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Coffeshop Logo"
+            class="footer__logo"
+          />
+          <ul class="footer__list">
+            <li class="footer__social-heading">Social Media</li>
+            <li class="footer__list-item">
+              <img
+                src="./images/facebook_white.svg"
+                alt="Facebook Logo"
+                class="footer__social-icon"
+              /><a href="#" class="footer__social-link">Facebook</a>
+            </li>
+
+            <li class="footer__list-item footer__list-item_no-padding">
+              <img
+                src="./images/instagram_white.svg"
+                alt="Instagram Logo"
+                class="footer__social-icon"
+              /><a href="#" class="footer__social-link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer__copyright">© 2024 Lincoln Hitchcock</p>
       </footer>
     </div>
   </body>
