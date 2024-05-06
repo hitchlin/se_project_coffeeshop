@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+The menu could use a rework with images for the menu items.
+There also could be a rewards program added to track customers purchases and incentivize return customers.
+There could be an option to place orders online.
