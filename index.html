@@ -27,20 +27,16 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link nav__link_recipes" href="#recipes">Recipes</a>
+              <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link nav__link_book" href="#reservation"
-                >Book a Table</a
-              >
+              <a class="nav__link" href="#reservation">Book a Table</a>
             </li>
             <li>
-              <a class="nav__link nav__link_menu" href="#menu">Menu</a>
+              <a class="nav__link" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="nav__link nav__link_contacts" href="#contacts"
-                >Contacts</a
-              >
+              <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -53,21 +49,21 @@
           the cozy vibes to help you get creative.
         </p>
         <img
-          src="/images/inside_coffee_shop.png"
+          src="../images/inside_coffee_shop.png"
           alt="Illustration 'Inside the coffeeshop'"
           class="header__image"
         />
         <div class="header__footer">
           <ul class="header__footer-list">
-            <li class="header__footer-list-item">Hours:</li>
-            <li class="header__footer-list-item">
+            <li class="header__footer-paragraph">Hours:</li>
+            <li class="header__footer-paragraph">
               Monday – Friday (10:00 – 19:00)
             </li>
-            <li class="header__footer-list-item">
+            <li class="header__footer-paragraph">
               Saturday – Sunday (11:00 – 18:00)
             </li>
           </ul>
-          <p class="header__footer-address">
+          <p class="header__footer-paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -103,10 +99,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-captions">
-                <p class="recipes__video-caption">French press recipe</p>
-                <p class="recipes__video-caption">~15 min</p>
-              </div>
+              <p class="recipes__video-captions">
+                <span class="recipes__video-caption">French press recipe</span>
+                <span class="recipes__video-caption">~15 min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -118,7 +114,7 @@
                 >Name *
                 <input
                   type="text"
-                  class="form__name form__input"
+                  class="form__input"
                   name="name"
                   id="name"
                   placeholder="Name Surname"
@@ -128,7 +124,7 @@
                 >Number of guests *
                 <input
                   type="number"
-                  class="form__guest form__input"
+                  class="form__input"
                   name="guest"
                   id="guest"
                   placeholder="1-8"
@@ -138,7 +134,7 @@
                 >Date & time *
                 <input
                   type="datetime-local"
-                  class="form__date form__input"
+                  class="form__input"
                   name="date"
                   id="date"
                 />
@@ -147,7 +143,7 @@
                 >Your email *
                 <input
                   type="email"
-                  class="form__email form__input"
+                  class="form__input"
                   name="email"
                   id="email"
                   placeholder="email@email.com"
@@ -174,10 +170,8 @@
           </p>
           <div class="menu__cards">
             <div class="menu__2-cards">
-              <div class="card card_filter">
-                <ul class="card__title">
-                  Filter
-                </ul>
+              <div class="card">
+                <h3 class="card__title">Filter</h3>
                 <li class="card__list-item">
                   Regular (12 oz)
                   <span class="card__list-divider"> .</span>
@@ -200,16 +194,12 @@
                 </li>
                 <li class="card__list-item">
                   Iced Coffee (16 oz)
-                  <span class="card__list-divider card__list-item_no-padding">
-                    .</span
-                  >
+                  <span class="card__list-divider"> .</span>
                   $1.75
                 </li>
               </div>
-              <div class="card card_espresso">
-                <ul class="card__title">
-                  Espresso
-                </ul>
+              <div class="card">
+                <h3 class="card__title">Espresso</h3>
                 <li class="card__list-item">
                   Macchiato
                   <span class="card__list-divider"> .</span>
@@ -225,7 +215,7 @@
                   <span class="card__list-divider"> .</span>
                   $3
                 </li>
-                <li class="card__list-item card__list-item_no-padding">
+                <li class="card__list-item">
                   Sunrise in the Bay Area (decaf)
                   <span class="card__list-divider"> .</span>
                   $10
@@ -261,7 +251,7 @@
                 <span class="card__list-divider"> .</span>
                 $2
               </li>
-              <li class="card__list-item card__list-item_no-padding">
+              <li class="card__list-item">
                 Fresh Bug'uette
                 <span class="card__list-divider"> .</span>
                 $0.25
@@ -272,7 +262,7 @@
         <section class="about" id="about">
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
-          <h3 class="about__title">About the coffee shop</h3>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
@@ -289,7 +279,7 @@
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <div class="footer__content">
           <img
             src="./images/logo_coffeeshop_light.svg"
@@ -306,7 +296,7 @@
               /><a href="#" class="footer__social-link">Facebook</a>
             </li>
 
-            <li class="footer__list-item footer__list-item_no-padding">
+            <li class="footer__list-item">
               <img
                 src="./images/instagram_white.svg"
                 alt="Instagram Logo"
