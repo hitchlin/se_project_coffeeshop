@@ -51,7 +51,7 @@
 }
 
 .recipes__video-captions {
-  padding: 0px 40px 0px 0px;
+  padding: 0px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
@@ -60,4 +60,5 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  margin: 0px;
 }

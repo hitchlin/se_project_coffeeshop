@@ -40,24 +40,34 @@
   display: flex;
   flex-direction: column;
   align-self: center;
-}
-.menu__2-cards {
-  display: flex;
-  flex-direction: row;
-}
-.card {
-  width: 540px;
-  justify-items: center;
   padding-right: 100px;
-}
-.card:last-child {
-  padding-right: 0px;
+  padding-left: 100px;
+  gap: 100px;
 }
 
-.card_baked-goods {
+.card {
+  width: 540px;
+  justify-items: space-between;
+  flex-direction: column;
+}
+.card:nth-child(1, 2) {
+  flex-direction: row;
+}
+.card:nth-child(1, 2) {
+  padding-right: 0px;
+}
+.card:last-child {
+  position: relative;
+  padding-right: 0px;
   padding-top: 100px;
   align-self: center;
 }
+
+/*.card_baked-goods {
+  width: 540px;
+  padding-top: 100px;
+  align-self: center;
+}*/
 .card__title {
   font-family: "Inter";
   font-style: normal;
@@ -79,6 +89,7 @@
   padding-bottom: 16px;
   color: #000;
   display: flex;
+  margin: 0px;
 }
 .card__list-item:last-child {
   padding-bottom: 0;

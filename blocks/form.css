@@ -30,14 +30,17 @@
 
 .form__input {
   height: 60px;
-  font-family: "Inter" s;
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
   padding: 0;
   margin: 0;
+  border-radius: 4px;
+}
+.form__input::placeholder {
+  color: #838383;
 }
 
 .form__button {
@@ -52,6 +55,7 @@
   color: #fff;
   padding: 0;
   margin: 0;
+  border: 0;
 }
 .form__button:hover {
   opacity: 70%;
