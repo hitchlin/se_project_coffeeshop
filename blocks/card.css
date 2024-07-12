@@ -1,0 +1,56 @@
+.card {
+  width: 540px;
+  justify-items: space-between;
+  flex-direction: column;
+}
+.card:nth-child(1, 2) {
+  flex-direction: row;
+}
+.card:nth-child(1, 2) {
+  padding-right: 0px;
+}
+.card:last-child {
+  position: relative;
+  padding-right: 0px;
+  padding-top: 100px;
+  align-self: center;
+}
+
+/*.card_baked-goods {
+    width: 540px;
+    padding-top: 100px;
+    align-self: center;
+  }*/
+.card__title {
+  font-family: "Inter", Arial, Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 0;
+  padding-bottom: 32px;
+  color: #000;
+  margin: 0;
+}
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  padding-bottom: 16px;
+  color: #000;
+  display: flex;
+  margin: 0px;
+}
+.card__list-item:last-child {
+  padding-bottom: 0;
+}
+.card__list-divider {
+  color: #fff;
+  padding-left: 10px;
+  display: inline-block;
+  flex-grow: 1;
+  border-bottom: 1px solid #000;
+}
