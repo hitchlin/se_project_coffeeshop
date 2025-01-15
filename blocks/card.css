@@ -3,18 +3,6 @@
   justify-items: space-between;
   flex-direction: column;
 }
-.card:nth-child(1, 2) {
-  flex-direction: row;
-}
-.card:nth-child(1, 2) {
-  padding-right: 0px;
-}
-.card:last-child {
-  position: relative;
-  padding-right: 0px;
-  padding-top: 100px;
-  align-self: center;
-}
 
 /*.card_baked-goods {
     width: 540px;

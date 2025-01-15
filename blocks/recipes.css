@@ -11,7 +11,7 @@
 }
 .recipes__title {
   color: #fff;
-  font-family: "Inter" Arial, Serif;
+  font-family: "Inter", s Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -23,7 +23,7 @@
 }
 .recipes__subtitle {
   color: #fff;
-  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
