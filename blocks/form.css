@@ -74,11 +74,6 @@
   display: flex;
   justify-content: center;
   border-radius: 2px;
-  font-family: "Inter" Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   align-self: center;
 }
 .form__checkbox {
